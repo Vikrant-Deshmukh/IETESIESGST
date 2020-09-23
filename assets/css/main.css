@@ -2101,13 +2101,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #DA2C0E;
+		color: #0779A4 ;
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: #DA2C0E;
-			color: #DA2C0E !important;
+			border-bottom-color:#0779A4 ;
+			color: #0779A4  !important;
 		}
 
 			a:hover strong {
@@ -2276,7 +2276,7 @@
 	}
 
 	header.major > :last-child {
-		border-bottom: solid 3px #DA2C0E;
+		border-bottom: solid 3px #0779A4 ;
 		display: inline-block;
 		margin: 0 0 2em 0;
 		padding: 0 0.75em 0.5em 0;
@@ -2343,8 +2343,8 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #DA2C0E;
-			box-shadow: 0 0 0 1px #DA2C0E;
+			border-color: #0779A4 ;
+			box-shadow: 0 0 0 1px #0779A4 ;
 		}
 
 	.select-wrapper {
@@ -2457,8 +2457,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #DA2C0E;
-			box-shadow: 0 0 0 1px #DA2C0E;
+			border-color: #0779A4 ;
+			box-shadow: 0 0 0 1px #0779A4 ;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2696,7 +2696,7 @@
 				}
 
 				ul.contact li:before {
-					color: #DA2C0E;
+					color: #0779A4 ;
 					display: inline-block;
 					font-size: 1.5em;
 					height: 1.125em;
@@ -2820,16 +2820,16 @@
 				}
 
 					ul.pagination li > .page.active {
-						background-color: #DA2C0E;
+						background-color: #0779A4 ;
 						color: #ffffff !important;
 					}
 
 						ul.pagination li > .page.active:hover {
-							background-color: #f67878;
+							background-color: #0779A4 ;
 						}
 
 						ul.pagination li > .page.active:active {
-							background-color: #f45c5c;
+							background-color: #0779A4 ;
 						}
 
 				ul.pagination li:first-child {
@@ -2952,8 +2952,8 @@
 		background-color: transparent;
 		border-radius: 0.375em;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #DA2C0E;
-		color: #DA2C0E !important;
+		box-shadow: inset 0 0 0 2px #0779A4 ;
+		color: #0779A4  !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Roboto Slab", serif;
@@ -3026,7 +3026,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #DA2C0E;
+			background-color: #0779A4  ;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3036,7 +3036,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f67878;
+				background-color: #0779A4 ;
 			}
 
 			input[type="submit"].special:active,
@@ -3044,7 +3044,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #f45c5c;
+				background-color: #0779A4  ;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3146,7 +3146,7 @@
 			}
 
 				.features article .icon:before {
-					color: #DA2C0E;
+					color: #0779A4 ;
 					font-size: 2.75rem;
 					position: relative;
 					top: 0.05em;
@@ -3791,7 +3791,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		border-bottom: solid 5px #DA2C0E;
+		border-bottom: solid 5px #0779A4 ;
 		padding: 6em 0 1em 0;
 		position: relative;
 	}
@@ -3986,7 +3986,7 @@
 		}
 
 			#menu ul a:hover, #menu ul span:hover {
-				color: #DA2C0E;
+				color: ##0779A4 ;
 			}
 
 			#menu ul a.opener, #menu ul span.opener {
@@ -4020,7 +4020,7 @@
 				}
 
 				#menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-					color: #DA2C0E;
+					color: #0779A4 ;
 				}
 
 				#menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
@@ -4065,7 +4065,7 @@
 
 
 #dabar{
-	background: #fc2f1f;
+	background: #0779A4  ;
 	color: #fff;
 	display: block;
 	position: fixed;
