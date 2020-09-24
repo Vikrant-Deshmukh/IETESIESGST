@@ -2070,12 +2070,14 @@
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 1.65;
+		font-display: swap;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
+				font-display: swap;
 			}
 
 		}
@@ -2084,6 +2086,7 @@
 
 			body, input, select, textarea {
 				font-size: 10pt;
+				font-display: swap;
 			}
 
 		}
@@ -2092,6 +2095,7 @@
 
 			body, input, select, textarea {
 				font-size: 9pt;
+				font-display: swap;
 			}
 
 		}
@@ -3151,6 +3155,7 @@
 					font-size: 2.75rem;
 					position: relative;
 					top: 0.05em;
+					font-display: swap;
 				}
 
 				.features article .icon:after {
@@ -3268,6 +3273,7 @@
 
 			.features article .icon:before {
 				font-size: 1.25rem;
+				font-display: swap;
 			}
 
 		}
@@ -3548,6 +3554,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+			font-display: swap;
 		}
 
 		#search form:before {
@@ -3568,6 +3575,7 @@
 			text-align: center;
 			top: 0;
 			width: 2em;
+			font-display: swap;
 		}
 
 		#search form input[type="text"] {
@@ -3591,10 +3599,12 @@
 		font-size: 0.9em;
 		position: relative;
 		width: 26em;
+		font-display: swap;
 	}
 
 		#sidebar h2 {
 			font-size: 1.38889em;
+			font-display: swap;
 		}
 
 		#sidebar > .inner {
@@ -3656,6 +3666,7 @@
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
+				font-display: swap;
 			}
 
 			#sidebar .toggle:before {
@@ -3701,6 +3712,7 @@
 
 					#sidebar .toggle:before {
 						font-size: 1.5rem;
+						font-display: swap;
 					}
 
 				#sidebar.inactive {
@@ -3749,6 +3761,7 @@
 					#sidebar .toggle:before {
 						font-size: 1.5rem;
 						margin-left: -0.4375em;
+						font-display: swap;
 					}
 
 				body.is-loading #sidebar {
@@ -3769,6 +3782,7 @@
 					margin-left: -0.0625em;
 					margin-top: -0.25em;
 					font-size: 1.1rem;
+					font-display: swap;
 					z-index: 1;
 				}
 
@@ -3810,6 +3824,7 @@
 			color: inherit;
 			font-family: "Roboto Slab", serif;
 			font-size: 1.125em;
+			font-display: swap;
 		}
 
 		#header .icons {
@@ -3833,6 +3848,7 @@
 				#header .logo {
 					font-size: 1.25em;
 					margin: 0;
+					font-display: swap;
 				}
 
 				#header .icons {
@@ -3954,6 +3970,7 @@
 	#footer .copyright {
 		color: #9fa3a6;
 		font-size: 0.9em;
+		font-display: swap;
 	}
 
 		#footer .copyright a {
@@ -3975,6 +3992,7 @@
 		margin-bottom: 0;
 		padding: 0;
 		text-transform: uppercase;
+		font-display: swap;
 	}
 
 		#menu ul a, #menu ul span {
@@ -3984,6 +4002,7 @@
 			display: block;
 			font-size: 0.9em;
 			padding: 0.625em 0;
+			font-display: swap;
 		}
 
 			#menu ul a:hover, #menu ul span:hover {
@@ -4007,6 +4026,7 @@
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
+					font-display: swap;
 				}
 
 				#menu ul a.opener:before, #menu ul span.opener:before {
@@ -4050,6 +4070,7 @@
 
 			#menu > ul > li > ul a, #menu > ul > li > ul span {
 				font-size: 0.8em;
+				font-display: swap;
 			}
 
 			#menu > ul > li > ul > li {
@@ -4079,5 +4100,6 @@
 #dabar a{
         color: #fff;
         text-decoration:underline;
-        font-weight: normal;
+		font-weight: normal;
+		font-display: swap;
 }
